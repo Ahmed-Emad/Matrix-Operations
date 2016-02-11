@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A232F9651837E5520082A4B9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A232F9641837E5520082A4B9 /* main.c */; };
-		A232F9671837E5520082A4B9 /* Programming_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A232F9661837E5520082A4B9 /* Programming_Project.1 */; };
+		A232F9671837E5520082A4B9 /* Matrix Operations.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A232F9661837E5520082A4B9 /* Matrix Operations.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +18,16 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				A232F9671837E5520082A4B9 /* Programming_Project.1 in CopyFiles */,
+				A232F9671837E5520082A4B9 /* Matrix Operations.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A232F9611837E5520082A4B9 /* Programming Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programming Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A232F9611837E5520082A4B9 /* Matrix Operations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Operations"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A232F9641837E5520082A4B9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		A232F9661837E5520082A4B9 /* Programming_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Programming_Project.1; sourceTree = "<group>"; };
+		A232F9661837E5520082A4B9 /* Matrix Operations.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Matrix Operations.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		A232F9581837E5520082A4B9 = {
 			isa = PBXGroup;
 			children = (
-				A232F9631837E5520082A4B9 /* Programming Project */,
+				A232F9631837E5520082A4B9 /* Matrix Operations */,
 				A232F9621837E5520082A4B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,26 +52,26 @@
 		A232F9621837E5520082A4B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A232F9611837E5520082A4B9 /* Programming Project */,
+				A232F9611837E5520082A4B9 /* Matrix Operations */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A232F9631837E5520082A4B9 /* Programming Project */ = {
+		A232F9631837E5520082A4B9 /* Matrix Operations */ = {
 			isa = PBXGroup;
 			children = (
 				A232F9641837E5520082A4B9 /* main.c */,
-				A232F9661837E5520082A4B9 /* Programming_Project.1 */,
+				A232F9661837E5520082A4B9 /* Matrix Operations.1 */,
 			);
-			path = "Programming Project";
+			path = "Matrix Operations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A232F9601837E5520082A4B9 /* Programming Project */ = {
+		A232F9601837E5520082A4B9 /* Matrix Operations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A232F96A1837E5520082A4B9 /* Build configuration list for PBXNativeTarget "Programming Project" */;
+			buildConfigurationList = A232F96A1837E5520082A4B9 /* Build configuration list for PBXNativeTarget "Matrix Operations" */;
 			buildPhases = (
 				A232F95D1837E5520082A4B9 /* Sources */,
 				A232F95E1837E5520082A4B9 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = "Programming Project";
+			name = "Matrix Operations";
 			productName = "Programming Project";
-			productReference = A232F9611837E5520082A4B9 /* Programming Project */;
+			productReference = A232F9611837E5520082A4B9 /* Matrix Operations */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ahmed Barakat";
 			};
-			buildConfigurationList = A232F95C1837E5520082A4B9 /* Build configuration list for PBXProject "Programming Project" */;
+			buildConfigurationList = A232F95C1837E5520082A4B9 /* Build configuration list for PBXProject "Matrix Operations" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A232F9601837E5520082A4B9 /* Programming Project */,
+				A232F9601837E5520082A4B9 /* Matrix Operations */,
 			);
 		};
 /* End PBXProject section */
@@ -195,21 +195,21 @@
 		A232F96B1837E5520082A4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Matrix Operations";
 			};
 			name = Debug;
 		};
 		A232F96C1837E5520082A4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Matrix Operations";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A232F95C1837E5520082A4B9 /* Build configuration list for PBXProject "Programming Project" */ = {
+		A232F95C1837E5520082A4B9 /* Build configuration list for PBXProject "Matrix Operations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A232F9681837E5520082A4B9 /* Debug */,
@@ -218,13 +218,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A232F96A1837E5520082A4B9 /* Build configuration list for PBXNativeTarget "Programming Project" */ = {
+		A232F96A1837E5520082A4B9 /* Build configuration list for PBXNativeTarget "Matrix Operations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A232F96B1837E5520082A4B9 /* Debug */,
 				A232F96C1837E5520082A4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
